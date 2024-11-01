@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+This is my final project Website for my WEBDEV course in RRC.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# WPG Fit CMS
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+WPG Fit CMS is a community-driven platform designed for gym-goers to share their fitness journeys, connect with friends, and access valuable resources. Users can post workouts, comment on each other’s posts, join groups, and track their fitness progress.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **User Authentication**: Secure user registration and login system.
+- **User Profiles**: Personalized profiles - Users can manage their information and fitness goals.
+- **Post Sharing**: Users can create, edit, and delete workout posts.
+- **Commenting System**: Engage with other users through comments on posts.
+- **Group Functionality**: Create and join groups to share experiences and motivate each other.
+- **Progress Tracking**: Keep track of daily fitness-related activities and achievements.
+- **Leaderboards**: View and compete with friends based on fitness milestones.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Frontend**: React.js
+- **Styling**: CSS / CSS Modules / Styled Components
+- **Routing**: React Router
+- **Database**: SSMS
